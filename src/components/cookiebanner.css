@@ -1,0 +1,43 @@
+/* Cookie Banner */
+
+#cookie--banner a {
+	text-decoration: none;
+}
+
+#cookie--banner a:hover {
+	text-decoration: none;
+}
+
+.cookie--text {
+	margin: 10px;
+}
+
+.cookie--info > div {
+	width: 49% !important;
+}
+
+#cookie--banner { 
+	position: fixed;
+	z-index: 10000; 
+	width: 100%; 
+	line-height: 16px;
+}
+
+#data--security,
+#close--banner {
+	text-align: center;
+	width: 95%;
+	position: relative;
+	text-decoration: none;
+	cursor: pointer;
+	padding: 5px;
+	margin: 10px;
+	transition: all 1s ease-in-out;
+}
+
+#data--security:hover,
+#close--banner:hover {
+	/*background-color: #ccc;
+	color: #fff;*/
+	transition: all 1s ease-in-out;
+}
